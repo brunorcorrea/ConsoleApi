@@ -3,10 +3,7 @@
 namespace ConsoleApi
 {
     public class ApiResponse
-    {
-        [JsonProperty("id")]
-        public int Id { get; set; }
-        
+    {   
         [JsonProperty("curso")]
         public string Curso { get; set; }
         
